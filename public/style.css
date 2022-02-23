@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* -----------------header---------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin: 0 88px;
+    padding: 12px;
+    border-bottom: 1px solid #D5E0D5 ;
+    color: #65735B ;
+    background-color: white;
+
+}
+.headerOne {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.navlinks {
+    width: 100%;
+    /* border: 1px solid brown; */
+    justify-content: center;
+}
+.navlinks nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid tomato; */
+}
+.navlinks nav ul li {
+    display: flex;
+    /* border: 1px solid green; */
+    margin-left: 10px;
+}
+li {
+    list-style: none;
+}
+nav ul li:hover{
+    color: #14A800;
+    cursor: pointer;
+}
+.headerTwo {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.searchbtn {
+    width: 40px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #F2F7F2;
+    color: #14A800;
+    outline: 1px solid #65735B;
+    border: none;
+    margin: 0 15px;
+}
+.loginbtn {
+    border: none;
+    outline: none;
+    margin: 0 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #65735B;
+}
+.loginbtn:hover{
+    color: #14A800;
+    cursor: pointer;
+}
+.signupbtn {
+    width: 114px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #14A800;
+    color: white;
+}
+.signupbtn:hover {
+    background-color: #3C8224;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+/* ---------------------EXTRA LINKS----------------- */
+.extralinks {
+    margin: 0 88px;
+    background-color: white;
+}
+.extralinks ul {
+    display: flex;
+}
+.extralinks ul li {
+    padding: 25px 0 0 15px;
+    font-size: 14px;
+    color: #65735B;
+}
+.extralinks ul li:hover {
+    color: #14A800;
+}
+/*-----------------FIND WORK-------------------- */
+.titlepage {
+    display: flex;
+    align-items: center;
+    padding: 60px 0 80px 0;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.topintro{
+    width: 50%;
+    margin-left: 20px;
+    /* border: 1px solid brown; */
+}
+.title{
+    border: black;
+}
+.titlepage h1 {
+    font-size: 70px;
+    color: #14A800;
+    /* border: 1px solid #14A800; */
+}
+.subtitle {
+    font-size: 24px;
+    color: #65735B;
+    /* border: 1px solid blue; */
+    margin-bottom: 30px;
+}
+.topbtn{
+    /* border: 1px solid black; */
+
+
+}
+.talent{
+    background-color:#14A800;
+    color: #ffff;
+    padding: 12px 29px;
+    margin-right: 5px;
+    width: 137px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+}
+.talent:hover {
+    background-color: #3C8224;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.work {
+    background-color: transparent;
+    color: #14A800;
+    padding: 12px 29px;
+    width: 137px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: 1px solid #14A800;
+}
+.work:hover {
+    background-color: #F2F7F2;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.topimg{
+    width: 35%;
+}
+.logos{
+    margin-top: 70px;
+}
+.logos img {
+    padding-right: 20px;
+}
+.trust{
+    color: #65735B;
+    opacity: 0.6;
+    font-weight: bold;
+}
+/* -------------BANNER--------------- */
+.banner{
+    background-image: url("./img/find-talent.06d34b1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 90%;
+    padding: 25px ;
+    margin: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #14A800;
+}
+.forclient  .para1 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 100px;
+}
+.forclient {
+    margin-bottom: 30px;
+    padding-left: 5px;
+    
+}
+.forclient  h1{
+    font-size: 62px;
+    width: 30%;
+    color: white ;
+    margin-bottom: 30px;
+}
+.para2 {
+    font-size: 18px;
+    width: 30%;
+    color: white;
+    margin-bottom: 40px;
+    /* border: 1px solid black; */
+}
+.bannercontent {
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-around;
+}
+.bannercontent .content1, .bannercontent .content2,.bannercontent .content3 {
+    text-align: start;
+    width: 30%;
+    padding: 10px 10px 10px 15px;
+    background-color: #14A800;
+    border: none;
+    border-radius: 5px;
+}
+.content1:hover , .content2:hover , .content3:hover , .bannercontent h2:hover, .bannercontent p:hover {
+    background-color: white;
+    color: #14A800;
+    cursor: pointer;
+}
+.bannercontent h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.bannercontent p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* ---------------Upwork-------------- */
+.upwork {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    margin: 90px 0;
+    width: 100%;
+    position: relative;
+}
+.business {
+    width: 60%;
+    /* border: 1px solid red; */
+    background-color: #F2F7F2;
+    padding: 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.worldwork {
+    width: 30%;
+    padding: 20px;
+    background-color: #14A800;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+}
+.trend h1 {
+    font-size: 50px;
+    color: #001E00;
+    margin-bottom: 30px;
+    width: 55%;
+    font-weight: 700;
+}
+.type1 h3, .type2 h3, .type3 h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #001E00;
+}
+.type1 p, .type2 p, .type3 p{
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 30px;
+    color: #001E00;
+    opacity: 0.6;
+    font-weight: bold;
+}
+.sideimg {
+    position: absolute;
+    right: 30%;
+    top: -12%;
+    bottom: 0
+}
+.worldwork h4 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+}
+.worldwork p {
+    font-size: 16px;
+    color: white;
+}
+.rating h4 {
+    margin-bottom: 10px;
+}
+.rating p {
+    margin-bottom: 5px;
+}
+/* ----------------------Skills----------------- */
+.skills {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    /* border: 1px solid black; */
+}
+.proskills {
+    /* border: 1px solid green; */
+    padding: 15px 15px 15px 45px;
+    width: 50%;
+}
+.developments {
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.developments img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.proskills h2 {
+    width: 70%;
+    font-size: 70px;
+    color: #001E00;
+}
+.proskills ul li {
+    list-style: none;
+    font-size: 36px;
+    color: #65735B;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.proskills ul li:hover {
+    color: #001E00;
+    cursor: pointer;
+}
+.dev1 {
+    /* border: 1px solid grey; */
+    display: flex;
+}
+.part1 div , .part2 div{
+    border: 1px solid #65735B;
+    color: #65735B;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px 20px;
+    margin: 0 10px 10px 0;
+}
+.part1 div:hover , .part2 div:hover {
+    background-color: #F2F7F2;
+    cursor: pointer;
+}
+/* -------------------opportunities--------------- */
+.opportunities {
+    display: flex ;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    margin-top: 60px;
+}
+.firstOne img {
+    border-radius: 5px 0 0 5px;
+}
+.firstOne {
+    width: 43%;
+}
+.secondOne {
+    color: white;
+    background-color: #1F57C3;
+    padding: 20px;
+    width: 43%;
+    margin-bottom: 4px;
+    border-radius: 0 5px 5px 0;
+}
+.One{
+    margin-bottom: 125px;
+}
+.One h2 {
+    font-size: 62px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.pOne  {
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.pTwo {
+    font-size: 18px;
+    width: 75%;
+}
+.Two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.Two p {
+    width: 30%;
+}
+.Three p {
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 29px;
+    background-color: #F2F7F2;
+    color: #1F57C3;
+    width: 37%;
+}
+.Three p:hover {
+  cursor: pointer;
+}
+/* -------------------reviews------------------- */
+.reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+}
+.reviewOne {
+    width: 43%;
+    /* border: 1px solid gray; */
+    padding: 15px;
+}
+.reviewTwo {
+    width: 43%;
+    /* border: 1px solid black; */
+    padding: 15px;
+}
+.reviews h1 {
+    font-size: 62px;
+    color: #001E00;
+    margin-bottom: 100px;
+}
+.reviews h2 {
+    font-size: 25px;
+    color: #14A800;
+    font-weight: lighter;
+    margin: 30px 0;
+}
+.reviews p {
+    font-size: 20px;
+    color: hsl(95, 12%, 40%);
+    margin-bottom: 50px;
+    width: 80%;
+}
+.reviews hr {
+    border-color: #001E00;
+    margin-bottom: 10px;
+    width: 80%;
+    border-width: 1px;
+    border-style: solid;
+}
+.reviewOne img {
+    border-radius: 7px;
+    width: 90%;
+}
+.reviewTwo img {
+    border-radius: 7px;
+    width: 80%;
+}
+.caraReviews {
+    /* border: 1px solid red; */
+    margin-left: 120px;
+}
+.samReviews {
+    /* border: 1px solid blue; */
+    width: 90%;
+}
+.reviews span {
+    color: #001E00;
+    font-size: 20px;
+}
+/* --------------------footer------------------------- */
+.foot-1 {
+    background-color: #001E00;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 25px;
+}
+/* ------------------END--------------------- */
+
+
+
+
+
+/* ----------------RESPONSIVE---------------- */
+@media only screen and (max-width: 998px){
+    .headerOne{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .searchbtn{
+        display: none;
+    }
+    .loginbtn{
+        display: none;
+    }
+    .headerOne{
+        margin-bottom: 5px;
+    }
+    .titlepage h1 {
+        font-size: 50px;
+    }
+    .titlepage p {
+        font-size: 20px;
+    }
+    .banner {
+        width: 80%;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .bannercontent h2 {
+        font-size: 25px;
+    }
+    .bannercontent p {
+        font-size: 15px;
+    }
+    .upwork {
+        width: 90%;
+    }
+    .upwork img {
+        width: 80%;
+        right: -10px;
+    }
+    .business {
+        width: 60%;
+        height: 80vh;
+        margin: 0;
+    }
+    .upwork h1 {
+        font-size: 35px;
+    }
+    .upwork h3 {
+        font-size: 24px;
+    }
+    .upwork h4 {
+        font-size: 30px;
+    }
+    .upwork p {
+        font-size: 15px;
+    }
+    .extralinks{
+        display: none;
+    }
+}
+@media only screen and (max-width: 872px){
+
+}
+@media only screen and (max-width: 872px){
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 758px){
+    .topimg{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .topimg{
+        width: 50%;
+    }
+    .talent{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .topimg {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1116px) {
+    .opportunities {
+        height: 505px;
+    }
+    .opportunities h2 {
+        font-size: xx-large;
+    }
+    .opportunities p {
+        font-size: medium;
+    }
+    .opportunities .Three p {
+         width: 50%;
+    }
+}
+@media only screen and (max-width: 1108px) {
+     .opportunities .firstOne {
+        width: 43%
+     }
+     .opportunities .secondOne {
+        width: 50%;
+     }
+}
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
